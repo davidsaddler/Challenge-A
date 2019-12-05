@@ -1,0 +1,43 @@
+.grid {
+  display:grid;
+  background-color: gray;
+  height: 1500px;
+  width: 1900px;
+  grid-gap: 10px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 150px auto 150px;
+  grid-template-areas:
+	"a a a a a a a a a a a a"
+	"b b b c c c c c c d d d"
+	"b b b c c c c c c d d d"
+}
+.a{
+	grid-area: a;
+
+}
+.b{
+	grid-area: b;
+}
+
+.c{
+	grid-area: c;
+}
+
+.d{
+	grid-area: d;
+}
+
+.box {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+.title {
+	color: white;
+	text-align: center;
+	font-size:
+	font-family:
+}
+
